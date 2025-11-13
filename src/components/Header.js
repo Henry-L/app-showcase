@@ -34,6 +34,12 @@ const TitleImage = styled.img`
   width: 100%;
   height: auto;
   display: block;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
 
   @media (max-width: 768px) {
     max-width: 350px;
@@ -115,16 +121,19 @@ const MainDescription = styled(Paragraph)`
 function Header() {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const toggleExpanded = () => setIsExpanded(!isExpanded);
+
   return (
     <IntroSection>
       <TitleSection>
         <TitleImage 
           src={titleImage} 
           alt="Henry's App Showcase" 
+          onClick={toggleExpanded}
         />
         <ExpandButton 
           className={isExpanded ? 'expanded' : ''}
-          onClick={() => setIsExpanded(!isExpanded)}
+          onClick={toggleExpanded}
           aria-label="Toggle description"
         >
           <DownOutlined />
