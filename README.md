@@ -80,7 +80,7 @@ npm run deploy
 
 ## 🎯 About This Project
 
-I'm currently on parental leave and have set myself a challenge: create one application a day using AI. Between playing with my daughter and the necessary contact naps, time is limited—but I'm using every available moment to deepen my understanding of AI-assisted development, the GCP environment, and programming languages I haven't worked with much before.
+I've set myself a fun challenge: create applications using AI as a learning experiment. Each project is an opportunity to explore new technologies, frameworks, and ideas while deepening my understanding of AI-assisted development, the GCP environment, and programming languages I haven't worked with much before.
 
-Each app here represents a day's work—whatever I can build and ship by end of day. Some will be simple, others more ambitious, but all are learning experiences.
+Some apps will be simple experiments, others more ambitious projects—but all are learning experiences and explorations in what's possible.
 
