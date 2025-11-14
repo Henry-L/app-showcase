@@ -1,4 +1,4 @@
-import { RocketOutlined, FundViewOutlined } from '@ant-design/icons';
+import { RocketOutlined, FundViewOutlined, DatabaseOutlined } from '@ant-design/icons';
 
 // App data - add more apps here as you build them
 export const apps = [
@@ -19,6 +19,15 @@ export const apps = [
     color: '#FFBF00',
     icon: <FundViewOutlined />,
     tags: ['Python', 'Firebase', 'Cloud Run']
+  },
+  {
+    id: 3,
+    title: 'DB Test',
+    description: 'Database testing and experimentation application',
+    url: '/apps/db-test',
+    color: '#52c41a',
+    icon: <DatabaseOutlined />,
+    tags: ['Python', 'Database', 'Cloud Run']
   },
   // Add more apps here in the future
 ];
