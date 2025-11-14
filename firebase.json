@@ -26,6 +26,14 @@
         "run": { "serviceId": "test-app", "region": "us-central1" }
       },
       {
+        "source": "/apps/db-test",
+        "run": { "serviceId": "db-test", "region": "us-central1" }
+      },
+      {
+        "source": "/apps/db-test/**",
+        "run": { "serviceId": "db-test", "region": "us-central1" }
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
