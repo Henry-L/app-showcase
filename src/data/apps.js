@@ -3,13 +3,25 @@ import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined } from 
 // App data - add more apps here as you build them
 export const apps = [
   {
+    id: 4,
+    title: 'Commute Tracker',
+    description: 'Track and analyze your daily commute patterns',
+    url: '/apps/commute-tracker',
+    color: '#fa8c16',
+    icon: <CarOutlined />,
+    tags: ['Python', 'Maps API', 'Cloud Run'],
+    isTest: false
+  },
+  // Test apps below
+  {
     id: 1,
     title: 'Test App',
     description: 'A test application showcasing Firebase integration',
     url: '/apps/test-app',
     color: '#1890ff',
     icon: <RocketOutlined />,
-    tags: ['Python', 'Firebase', 'Cloud Run']
+    tags: ['Python', 'Firebase', 'Cloud Run'],
+    isTest: true
   },
   {
     id: 2,
@@ -18,7 +30,8 @@ export const apps = [
     url: '/apps/test-app',
     color: '#FFBF00',
     icon: <FundViewOutlined />,
-    tags: ['Python', 'Firebase', 'Cloud Run']
+    tags: ['Python', 'Firebase', 'Cloud Run'],
+    isTest: true
   },
   {
     id: 3,
@@ -27,16 +40,8 @@ export const apps = [
     url: '/apps/db-test',
     color: '#52c41a',
     icon: <DatabaseOutlined />,
-    tags: ['Typescript', 'Database', 'Cloud Run']
-  },
-  {
-    id: 4,
-    title: 'Commute Tracker',
-    description: 'Track and analyze your daily commute patterns',
-    url: '/apps/commute-tracker',
-    color: '#fa8c16',
-    icon: <CarOutlined />,
-    tags: ['Python', 'Maps API', 'Cloud Run']
+    tags: ['Typescript', 'Database', 'Cloud Run'],
+    isTest: true
   },
   // Add more apps here in the future
 ];
