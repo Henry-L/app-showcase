@@ -34,6 +34,14 @@
         "run": { "serviceId": "db-test", "region": "us-central1" }
       },
       {
+        "source": "/apps/commute-tracker",
+        "run": { "serviceId": "commute-tracker", "region": "us-central1" }
+      },
+      {
+        "source": "/apps/commute-tracker/**",
+        "run": { "serviceId": "commute-tracker", "region": "us-central1" }
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

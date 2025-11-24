@@ -1,4 +1,4 @@
-import { RocketOutlined, FundViewOutlined, DatabaseOutlined } from '@ant-design/icons';
+import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined } from '@ant-design/icons';
 
 // App data - add more apps here as you build them
 export const apps = [
@@ -27,7 +27,16 @@ export const apps = [
     url: '/apps/db-test',
     color: '#52c41a',
     icon: <DatabaseOutlined />,
-    tags: ['Python', 'Database', 'Cloud Run']
+    tags: ['Typescript', 'Database', 'Cloud Run']
+  },
+  {
+    id: 4,
+    title: 'Commute Tracker',
+    description: 'Track and analyze your daily commute patterns',
+    url: '/apps/commute-tracker',
+    color: '#fa8c16',
+    icon: <CarOutlined />,
+    tags: ['Python', 'Maps API', 'Cloud Run']
   },
   // Add more apps here in the future
 ];
