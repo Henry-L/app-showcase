@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+# Build folder is deployed to Firebase, so we keep it
 
 # misc
 .DS_Store

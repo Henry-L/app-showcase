@@ -19,7 +19,7 @@ export const apps = [
     url: '/apps/art-studio',
     color: '#eb2f96',
     icon: <BgColorsOutlined />,
-    tags: ['Python', 'AI', 'PDF Generation'],
+    tags: ['Typescript', 'AI', 'Prompt Engineering'],
     isTest: false
   },
   // Test apps below
