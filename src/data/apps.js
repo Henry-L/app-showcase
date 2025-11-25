@@ -1,4 +1,4 @@
-import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined } from '@ant-design/icons';
+import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined, BgColorsOutlined } from '@ant-design/icons';
 
 // App data - add more apps here as you build them
 export const apps = [
@@ -10,6 +10,16 @@ export const apps = [
     color: '#fa8c16',
     icon: <CarOutlined />,
     tags: ['Python', 'Maps API', 'Cloud Run'],
+    isTest: false
+  },
+  {
+    id: 5,
+    title: 'Art Studio',
+    description: 'Generate print-ready PDFs from creative prompts using AI',
+    url: '/apps/art-studio',
+    color: '#eb2f96',
+    icon: <BgColorsOutlined />,
+    tags: ['Python', 'AI', 'PDF Generation'],
     isTest: false
   },
   // Test apps below
