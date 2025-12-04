@@ -1,4 +1,4 @@
-import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined, BgColorsOutlined, TrophyOutlined } from '@ant-design/icons';
+import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined, BgColorsOutlined, TrophyOutlined, KeyOutlined } from '@ant-design/icons';
 
 // App data - add more apps here as you build them
 export const apps = [
@@ -30,6 +30,16 @@ export const apps = [
     color: '#cf1322',
     icon: <TrophyOutlined />,
     tags: ['Go', 'Games', 'Cloud Run'],
+    isTest: false
+  },
+  {
+    id: 7,
+    title: 'Escape Room',
+    description: 'A two-player escape room puzzle game for couples',
+    url: '/apps/escape-room',
+    color: '#722ed1',
+    icon: <KeyOutlined />,
+    tags: ['Typescript', 'Games', 'Multiplayer'],
     isTest: false
   },
   // Test apps below

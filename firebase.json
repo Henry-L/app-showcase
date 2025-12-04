@@ -58,6 +58,14 @@
         "run": { "serviceId": "chess-slots", "region": "us-central1" }
       },
       {
+        "source": "/apps/escape-room",
+        "run": { "serviceId": "escape-room", "region": "us-central1" }
+      },
+      {
+        "source": "/apps/escape-room/**",
+        "run": { "serviceId": "escape-room", "region": "us-central1" }
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
