@@ -50,6 +50,14 @@
         "run": { "serviceId": "art-studio", "region": "us-central1" }
       },
       {
+        "source": "/apps/chess-slots",
+        "run": { "serviceId": "chess-slots", "region": "us-central1" }
+      },
+      {
+        "source": "/apps/chess-slots/**",
+        "run": { "serviceId": "chess-slots", "region": "us-central1" }
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

@@ -1,4 +1,4 @@
-import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined, BgColorsOutlined } from '@ant-design/icons';
+import { RocketOutlined, FundViewOutlined, DatabaseOutlined, CarOutlined, BgColorsOutlined, TrophyOutlined } from '@ant-design/icons';
 
 // App data - add more apps here as you build them
 export const apps = [
@@ -20,6 +20,16 @@ export const apps = [
     color: '#eb2f96',
     icon: <BgColorsOutlined />,
     tags: ['Typescript', 'AI', 'Prompt Engineering'],
+    isTest: false
+  },
+  {
+    id: 6,
+    title: 'Chess Slots',
+    description: 'A slot machine game featuring chess piece symbols',
+    url: '/apps/chess-slots',
+    color: '#cf1322',
+    icon: <TrophyOutlined />,
+    tags: ['Go', 'Games', 'Cloud Run'],
     isTest: false
   },
   // Test apps below
